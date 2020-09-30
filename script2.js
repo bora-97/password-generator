@@ -14,7 +14,7 @@ var confirmUpperCase;
 var confirmLowerCase;
 
 
-functiom generatePassword() {
+function generatePassword() {
     var confirmLength = (prompt(" How many characters would you like your password to contain?"));
 
     while(confirmLength <=7 ||confirmLength >=51){
@@ -75,5 +75,4 @@ function writePassword() {
 
   
     
-    }
-}
+  
